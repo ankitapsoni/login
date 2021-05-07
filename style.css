@@ -1,0 +1,119 @@
+.out-cont{
+    width: 750px;
+    height: 500px;
+    background-color: cornflowerblue;
+    margin: auto;
+}
+.in-cont{
+    width: 700px;
+    height: 450px;
+    margin: auto;
+    background-color: cornsilk;
+}
+.top-cont{
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    background-color: cornsilk;
+    display: flex;
+}
+.left-card{
+    width: 50%;
+    
+    flex: 50%;
+    align-content: center;
+}
+.cmplogo{
+    padding-top: 30px;
+    margin : auto;
+    display: block;
+    height: 250px;
+    width: 200px;
+}
+.right-card{
+    width: 50%;
+    flex: 50%;
+
+}
+.signin-card{
+    margin-left: 60px;
+    width: 70%;
+    display: flex;
+}
+.signin{
+    align-content: center;
+    font-size: 18px;
+}
+.topicons{
+    width: 50%;
+    flex: 50%;
+    margin: 10px;
+}
+.fbicontop{
+    padding: 10px;
+    height: 25px;
+    width: 25px;
+}
+.twittericontop{
+    padding: 10px;
+    height: 25px;
+    width: 25px;
+}
+.linkedinicontop{
+    padding: 10px;
+    height: 25px;
+    width: 25px;
+}
+hr {
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr:after {
+    background: #fff;
+    content: 'or';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+
+.bottom-cont{
+    width: 700px;
+    height: 50px;
+    display: flex;
+    background-color: blue;    
+
+}
+.copyrights{
+    align-content: center;
+    margin-left: 10px;
+    width: 350px;
+    flex: 50%;    
+    color:white ;
+
+}
+.bottomicon{
+    width: 350px;
+    flex: 50%;
+
+}
+.fbicon {
+    padding: 10px;
+    height: 25px;
+    width: 25px;
+}
+.twittericon {
+    padding: 10px;
+    height: 25px;
+    width: 25px;
+}
+.linkedinicon{
+    padding: 10px;
+    height: 25px;
+    width: 25px;
+}
